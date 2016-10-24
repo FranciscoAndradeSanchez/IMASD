@@ -1,0 +1,43 @@
+<%@ Master Language="VB" CodeFile="mpProiectus.master.vb" Inherits="mpProiectus" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Sistema de Control y Seguimiento de Proyectos de Investigación y Desarrollo</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css" />
+    <link href="css/estilo2014.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="cphCabecera" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    
+    <form id="frmMaster" runat="server">
+    
+        <div class="cuerpo_pagina">
+            <div class="contenedor">
+                <div class="row"> <div class="cabecera"></div></div>
+
+
+                <asp:contentplaceholder id="cphPrincipal" runat="server"></asp:contentplaceholder>
+
+                <div class="row"> 
+                    <div class="pie">
+                        <p style="text-align:left;">Para solicitar una clave de acceso, información, envío de comentarios y sugerencias en general hacer clic en Contáctanos.
+                            <span class="contactanos"><a href="Contactanos.aspx">Contáctanos <img src="images/2014/contacto.png" alt="Contacto" /></a></span>
+                        </p>
+        
+                    <small>Este sistema fue diseñado para operar bajo navegadores Microsfot IExplorer 6.x ó superior y resolución mínima de 1024 x 768 pixeles.
+                    Gerencia de Desarrollo y Transferencia de Tecnología. <br />
+                        Comisión Nacional Forestal. Carretera Nogales Esq. Periférico pte. #5360 Col. San Juan de Ocotán 
+                    Zapopan, Jalisco, http://www.conafor.gob.mx
+                    </small>
+                    </div>
+                </div><!-- /row-->
+
+            </div><!-- /contenedor-->
+        </div><!-- /cuerpo_pagina-->
+
+    </form>
+
+</body>
+</html>

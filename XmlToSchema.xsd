@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ex="urn:schemas-microsoft-com:xml-msdatasource-layout-extended" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="urn:schemas-microsoft-com:xml-msdatasource-layout">
+  <xsd:import namespace="urn:schemas-microsoft-com:xml-msdatasource-layout-extended" />
+  <xsd:element name="DiagramLayout">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Shapes">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Shape">
+                <xsd:complexType>
+                  <xsd:attribute name="ID" type="xsd:string" use="required" />
+                  <xsd:attribute name="ZOrder" type="xsd:unsignedByte" use="required" />
+                  <xsd:attribute name="X" type="xsd:unsignedByte" use="required" />
+                  <xsd:attribute name="Y" type="xsd:unsignedByte" use="required" />
+                  <xsd:attribute name="Height" type="xsd:unsignedShort" use="required" />
+                  <xsd:attribute name="Width" type="xsd:unsignedShort" use="required" />
+                  <xsd:attribute name="AdapterExpanded" type="xsd:boolean" use="required" />
+                  <xsd:attribute name="DataTableExpanded" type="xsd:boolean" use="required" />
+                  <xsd:attribute name="OldAdapterHeight" type="xsd:unsignedByte" use="required" />
+                  <xsd:attribute name="OldDataTableHeight" type="xsd:unsignedByte" use="required" />
+                  <xsd:attribute name="SplitterPosition" type="xsd:unsignedByte" use="required" />
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="Connectors" />
+      </xsd:sequence>
+      <xsd:attribute ref="ex:showrelationlabel" use="required" />
+      <xsd:attribute name="ViewPortX" type="xsd:unsignedByte" use="required" />
+      <xsd:attribute name="ViewPortY" type="xsd:unsignedByte" use="required" />
+    </xsd:complexType>
+  </xsd:element>
+</xs:schema>

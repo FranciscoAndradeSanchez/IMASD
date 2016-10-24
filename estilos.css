@@ -1,0 +1,511 @@
+﻿body
+{
+	margin: 0px;
+	font-size: 9pt;
+	font-family: Arial, Helvetica;
+	color: #333;;
+}
+
+.pestana{float:left;}
+.encabezado
+{
+	width: 800px;
+	height: 200px;
+}
+.contenido
+{
+	width: 800px;
+	position: static;
+	background-image: url(images/default/fondocontenido.jpg);
+}
+.tituloapl
+{
+	background-image: url(images/default/tituloapp.jpg);
+	background-repeat: no-repeat;
+	float:left;
+	width: 290px;
+	height: 159px;
+	/*left: 17px;
+	position: relative;
+	top: -24px;
+	*/
+}
+.logoFondoSectorial{
+	/*position:absolute;*/
+	float:left;
+	/*padding-left:300px;*/
+}
+.contenidologin
+{
+	background-image: url(images/default/fondologin.jpg);
+	width: 217px;
+	background-repeat: repeat-y;
+	/*position: static;*/
+	float:right;
+}
+.pielogin
+{
+	background-image: url(images/default/pielogin.jpg);
+	width: 217px;
+	background-repeat: no-repeat;
+	position: static;
+	height: 62px;
+}
+.textopielogin
+{
+	width: 200px;
+	position: static;
+	height: 62px;
+	font-size: 8pt;
+	
+	font-family: Arial, Helvetica;
+	text-align: right;
+	direction: ltr;
+	text-indent: 15px;
+}
+.textopielogin a:link
+{
+	font-weight: normal;
+	font-size: 8pt;
+	font-family: Arial, Helvetica;
+	text-decoration: underline;
+	
+}
+.textopielogin a:visited
+{
+	font-weight: normal;
+	font-size: 8pt;
+	font-family: Arial, Helvetica;
+	/*text-decoration: underline;*/
+	
+}
+.textopielogin a:hover
+{
+	font-weight: normal;
+	font-size: 8pt;
+	font-family: Arial, Helvetica;
+	/*text-decoration: underline;*/
+	
+}
+.textopielogin a:active
+{
+	font-weight: normal;
+	font-size: 8pt;
+	font-family: Arial, Helvetica;
+	/*text-decoration: underline;*/
+	
+}
+/*.contactanos
+{
+	left: 684px;
+	width: 91px;
+	height: 19px;
+	position: relative;
+
+}*/
+.iraconsulta
+{
+	left: 222px;
+	width: 197px;
+	height: 60px;
+	position: relative;
+	top: 44px;
+}
+.piepagina
+{
+	background-image: url(images/default/piepagina.jpg);
+	height: 108px;
+	/*height: 122px;
+	position: relative;
+	top: -14px;
+	background-
+	background-repeat: no-repeat;*/
+}
+.pieizquierdaArriba
+{
+	background-image: url(images/default/pieizquierdaarriba.jpg);
+	width: 226px;
+	height: 26px;
+	background-repeat: no-repeat;
+	/*position: relative;
+	top: -14px;*/
+}
+.piepaginamedioderecha
+{
+	background-image: url(images/default/piepaginamedioderecha.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	height: 90px;
+	left: -15px;
+	top: 65px;
+}
+.piepaginaarribaderecha
+{
+	background-image: url(images/default/piepaginaarribaderecha.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	height: 46px;
+	left: -2px;
+	top:65px;
+}
+.encabezadoDescripcion
+{
+	background-image: url(images/default/encabezadodescripcion.jpg);
+	width: 224px;
+	background-repeat: no-repeat;
+	height: 56px;
+	font-size: 8pt;
+	vertical-align: top;
+	
+	font-family: Arial, Helvetica;
+	text-align: left;
+	margin-left: 5px;
+}
+.contenidoDescripcion
+{
+	background-image: url(images/default/fondodescripcion.jpg);
+	width: 224px;
+	background-repeat: repeat-y;
+	font-size: 8pt;
+	vertical-align: top;
+	
+	font-family: Arial, Helvetica;
+	text-align: left;
+	margin-left: 5px;
+}
+.textoDescripcion
+{
+	margin-left: 10px;
+}
+.contenidoprincipal
+{
+	position: static;
+}
+a:link
+{
+	font-weight: bold;
+	font-size: 9pt;
+	font-family: Arial, Helvetica;
+	text-decoration: underline;
+	color: #333333;
+}
+a:visited
+{
+	font-weight: bold;
+	font-size: 9pt;
+	font-family: Arial, Helvetica;
+	text-decoration: underline;
+
+}
+a:hover
+{
+	font-weight: bold;
+	font-size: 9pt;
+	font-family: Arial, Helvetica;
+	text-decoration: underline;
+	color: #999999;
+}
+a:active
+{
+	font-weight: bold;
+	font-size: 9pt;
+	font-family: Arial, Helvetica;
+	text-decoration: underline;
+	
+}
+.tablaComun
+{
+}
+.tablaComun td
+{
+	font-size: 9pt;
+	font-family: Arial, Helvetica;
+	
+	vertical-align: top;
+}
+
+.thtablaComun
+{
+	font-size: 11pt;
+	font-family: Arial, Helvetica;
+	text-align: left;
+	color: #888888;
+	vertical-align: middle;
+	font-weight: bold;
+	border-right: white 1px dashed;
+	border-bottom: white 1px dashed;
+	background-position: 5px center;
+	background-image: url(images/aplicacion/felchamini.jpg);
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}
+/*.tablaComun span
+{
+	font-size: 8pt;
+	font-family: Arial, Helvetica;
+	font-weight: bold;
+	color: #FFD700;
+}*/
+
+.encabezadoInterno
+{
+	width: 800px;
+	position: static;
+	height: 56px;
+	background-image: url(images/2014/encabezado.jpg); /*TODO: CAmbiar cabecera de menu*/
+	background-repeat: no-repeat;
+}
+.flechaBajoInterno
+{
+	left: 48px;
+	background-image: url(images/aplicacion/flechamitadbaja.jpg); /*TODO: cambiar*/
+	width: 126px;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 0px;
+	height: 56px;
+}
+.pieInterno
+{
+	width: 800px;
+	position: static;
+	height: 131px;
+	background-image: url(images/aplicacion/piedepagina.jpg);
+	background-repeat: no-repeat;
+}
+.contenidoInterno
+{
+	/*background-image: url(images/aplicacion/fondocontenido.jpg);*/
+	background-color:#FFFFFF;
+}
+.contactanosInterno
+{
+	left: 684px;
+	width: 91px;
+	height: 19px;
+	position: relative;
+	top: 110px;
+}
+/*.menuPrincipal
+{
+	left: 200px;
+	width: 600px;
+	position: relative;
+	top: -56px;
+	height: 25px;
+	background-image: url(images/aplicacion/fondomenu.jpg);
+	background-repeat: repeat-x;
+}
+.elementoMenu
+{
+	background-image: url(images/aplicacion/fondoelementomenu.jpg);
+}
+.elementoMenuHover
+{
+	background-image: url(images/aplicacion/fondoboton.jpg);
+}*/
+.seccionPestanas
+{
+	border-bottom: white thin solid;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-top: 0px;
+}
+#Calendario th
+{
+	font-size: 11pt;
+	font-family: Arial, Helvetica;
+	text-align: left;
+	color: #FFD700;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.tablaHeaderTemplate
+{
+	font-size: 9pt;
+	font-family: Arial, Helvetica;
+	
+	border-top: white 1px solid;
+}
+
+.tablaHeaderTemplate th
+{
+	font-size: 9pt;
+	font-family: Arial, Helvetica;
+	
+	font-weight: bold;
+	text-align: left;
+	background-image: url(images/aplicacion/fondomenu.jpg);
+	border-bottom: white 1px solid;
+}
+
+.tablaItemTemplate
+{
+	font-size: 9pt;
+	font-family: Arial, Helvetica;
+	color: #333; /*TODO*/
+	border-top: white 1px solid;
+}
+.tablaItemTemplate td{	border: hidden;}
+.tablaItemTemplate th
+{
+	font-size: 9pt;
+	font-family: Arial, Helvetica;
+	color: #646569;
+	font-weight: bold;
+	text-align: left;
+}
+.tablaAlternatigTemplate
+{
+	font-size: 9pt;
+	font-family: 'Soberana Sans',Arial, Helvetica;
+	background-color:#E6E7E8;
+	color:#646569;
+
+	/*background-image: url(images/aplicacion/fondomenu.jpg);*/
+	/*border-top: white 1px solid;*/
+	
+}
+.tablaAlternatigTemplate td{	border: hidden;}
+.tablaAlternatigTemplate th
+{
+	font-size: 9pt;
+	font-family: Arial, Helvetica;
+	font-weight: bold;
+	text-align: left;
+}
+
+.tablaEditarTemplate
+{
+	border-right: white 1px dashed;
+	border-top: white 1px dashed;
+	font-size: 9pt;
+	border-left: white 1px dashed;
+	border-bottom: white 1px dashed;
+	font-family: Arial, Helvetica;
+}
+.tablaEditarTemplate td{	border: hidden;}
+.tablaEditarTemplate th
+{
+	background-image: url(images/aplicacion/fondomenu.jpg);
+	font-size: 7pt;
+	font-family: Arial, Helvetica;
+	font-weight: normal;
+	font-style: italic;
+}
+
+.tablaListaTemplate
+{
+	vertical-align: middle;
+	text-align: left;
+	font-size: 9pt;
+	font-family: Arial, Helvetica;
+}
+.tablaListaTemplate th{	border: hidden;}
+.tablaListaTemplate a:hover
+{
+	text-decoration: none;
+	color: #FFD700;
+	padding-left: 20px;
+	background-image: url(images/aplicacion/felchamini.jpg);
+	background-repeat: no-repeat;
+	font-weight: bolder;
+}
+.tablaListaTemplate  a:visited{
+	text-decoration:none;
+	color: #FFD700;
+	padding-left: 20px;
+}
+.tablaListaTemplate a:link{
+	text-decoration:none;
+	color: #FFD700;
+	padding-left: 20px;
+}
+
+.mensajeFlotante
+{
+	z-index: 1;
+	position: absolute;
+}
+.mesajeError
+{
+	z-index: 1;
+	position: absolute;
+	color: Black;
+	background-color: Yellow;
+	font-size: x-small;
+	border-style: dashed;
+	border-width: 1px;
+	font-style: italic;
+}
+
+.Catalogo_Fondo
+{
+	background-image:url(images/aplicacion/Catalogo_Fondo.gif);
+	position:relative;
+	left:0px;
+	top:0px;
+	width:800px;
+	height:500px;
+	background-color: #666;
+	border-radius: 10px;
+	margin:auto;
+}
+.Catalogo_Item
+{
+	border:1px;
+}
+a.Catalogo_Item:hover
+{
+	background-color:#738d37;
+}
+a.Catalogo_Item
+{
+	background-color:Transparent;
+}
+
+.msgAyuda
+{
+	z-index: 1;
+	position: absolute;
+	border-right: black 1px solid;
+	border-top: black 1px solid;
+	font-size: x-small;
+	border-left: black 1px solid;
+	border-bottom: black 1px solid;
+	background-
+	visibility:hidden;
+}
+.msgAyuda img
+{
+	text-align:right;
+}
+.msgAyuda th
+{
+	font-weight: bold;
+	font-style: italic;
+	background-color: #99cc00;
+	padding: 0px;
+	margin: 0px;
+}
+.msgAyuda td
+{
+	color: black;
+	text-align:left;
+	padding:2px;
+}
+.IntroInicio
+{
+	font-size: small;
+	
+	font-family: Arial, Verdana;
+}
+img
+{
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+}

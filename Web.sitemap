@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Inicio.aspx" title="Inicio"  description="Sistema de Información y Consulta de Proyectos de Investigación y Desarrollo">
+       <siteMapNode url="~/Contactanos.aspx" title="Contáctanos"  description="Sugerencias, comentarios" />
+       <siteMapNode url="~/Registro.aspx" title="Registro de usuarios"  description="Registro de usuarios" />
+       <siteMapNode url="~/Cambiarcontra.aspx" title="Cambiar contraseña"  description="Cambiar contraseña" />
+       <siteMapNode url="~/Reiniciarcontra.aspx" title="Reiniciar contraseña"  description="Reiniciar contraseña" />
+      <siteMapNode url="~/Desuscribir.aspx" title="Eliminar suscripción"  description="Eliminar suscripción" />
+      <siteMapNode url="~/Reportes.aspx?rpt=1" title="Reporte de estatus de los proyectos" description="Reporte de estatus de los proyectos" />
+      <siteMapNode url="~/Reportes.aspx?rpt=2" title="Reportes financieros" description="Reportes financieros" />
+      <siteMapNode url="~/Reportes.aspx?rpt=3" title="Reporte acumulado de proyectos" description="Acumulado de proyectos" />
+      <siteMapNode url="~/Reportes.aspx?rpt=4" title="Reporte estatus de productos" description="Estatus de productos" />
+      <siteMapNode url="~/Reportes.aspx?rpt=5" title="Reporte de productos descargados" description="Reporte de productos descargados" />
+      <siteMapNode url="~/Reportes.aspx?rpt=6" title="Reporte de usuarios" description="Reporte de usuarios" />
+      <siteMapNode url="~/Reportes.aspx?rpt=7" title="Reporte de beneficiarios" description="Reporte de beneficiarios" />
+      <siteMapNode url="~/Catalogos.aspx" title="Catálogos" description="Catálogos del sistema">
+         <siteMapNode url="~/CatTemplate.aspx?i=AreaForestal" title="Áreas Forestales" description="Catálogo de áreas forestales"/>
+         <siteMapNode url="~/CatTemplate.aspx?i=AreaTematicas" title="Áreas Temáticas" description="Catálogo de áreas temáticas"/>
+         <siteMapNode url="~/CatTemplate.aspx?i=DifDiv" title="Difusión y Divulgación" description="Catálogo de difusión y divulgación"/>
+         <siteMapNode url="~/CatTemplate.aspx?i=Ecosistemas" title="Ecosistemas" description="Catálogo de ecosistemas"/>
+         <siteMapNode url="~/CatTemplate.aspx?i=Escalas" title="Escalas" description="Catálogo de escalas"/>
+         <siteMapNode url="~/CatTemplate.aspx?i=Escolaridad" title="Escolaridad" description="Catálogo de escolaridad"/>
+         <siteMapNode url="~/CatEspecies_Nvo.aspx" title="Especies" description="Catálogo de especies"/>
+         <siteMapNode url="~/CatEstado.aspx" title="Estados" description="Catálogo de estados"/>
+         <siteMapNode url="~/CatEstatus.aspx" title="Estatus" description="Catálogo de estatus"/>
+         <siteMapNode url="~/CatGastos.aspx" title="Gastos" description="Catálogo de gastos"/>
+         <siteMapNode url="~/CatInfraestructura.aspx" title="Infraestructura" description="Catálogo de infraestructura"/>
+         <siteMapNode url="~/CatInstitucion.aspx" title="Instituciones" description="Catálogo de instituciones"/>
+         <siteMapNode url="~/CatMpio.aspx" title="Municipios" description="Catálogo de Municipios"/>
+         <siteMapNode url="~/CatNivel.aspx" title="Nivel" description="Catálogo de Niveles de usuario"/>
+         <siteMapNode url="~/CatTemplate.aspx?i=Objeto" title="Objetos" description="Catálogo de objetos"/>
+         <siteMapNode url="~/CatParticipante.aspx" title="Participantes" description="Catálogo de participantes"/>
+         <siteMapNode url="~/CatTemplate.aspx?i=Problematica" title="Problemáticas" description="Catálogo de Problemáticas"/>
+         <siteMapNode url="~/CatRegion.aspx" title="Regiones" description="Catálogo de Regiones"/>
+         <siteMapNode url="~/CatTemplate.aspx?i=SectorUsuario" title="Sectores de usuario" description="Catálogo de sectores de usuario"/>
+         <siteMapNode url="~/CatTipoApoyo.aspx" title="Tipo Apoyos" description="Catálogo de Tipo de Apoyos"/>
+         <siteMapNode url="~/CatTemplate.aspx?i=TipoInfraestructura" title="Tipos de Infraestructura" description="Catálogo de tipos de infraestructura"/>
+         <siteMapNode url="~/CatTemplate.aspx?i=TipoGasto" title="Tipos de gasto" description="Catálogo de tipos de gastos"/>
+         <siteMapNode url="~/CatTemplate.aspx?i=TipoParticipante" title="Tipos de participantes" description="Catálogo de tipos de participantes"/>
+         <siteMapNode url="~/CatTemplate.aspx?i=TipoProducto" title="Tipos de productos" description="Catálogo de tipos de productos"/>
+         <siteMapNode url="~/CatTemplate.aspx?i=TipoProyecto" title="Tipos de proyectos" description="Catálogo de tipos de proyectos"/>
+         <siteMapNode url="~/CatTemplate.aspx?i=UsoInfo" title="Uso de información" description="Catálogo uso de información"/>
+         <siteMapNode url="~/CatTemplate.aspx?i=Vegetacion" title="Vegetación" description="Catálogo de vegetación"/>
+       </siteMapNode>
+    </siteMapNode>
+</siteMap>

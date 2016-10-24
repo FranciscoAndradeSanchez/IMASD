@@ -1,0 +1,69 @@
+<%@ Master Language="VB" CodeFile="mpInterna.master.vb" Inherits="mpInterna" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Sistema de Control</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css" />
+    <link href="css/estilo2014.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="cphCabecera" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+<form id="form1" runat="server">
+<div class="cuerpo_pagina">
+
+    <div class="contenedor">
+        <div class="row"> <div class="cabecera"></div></div>
+        <div class="row">
+            <asp:Panel ID="idpnlEncabezado" runat="server" CssClass="encabezadoInterno" Visible="false"></asp:Panel>
+            <div class="menu">
+                <asp:Menu ID="mnuAplicacion" runat="server" Orientation="Horizontal" StaticPopOutImageUrl="~/images/aplicacion/felchamenu.gif" DynamicVerticalOffset="5" DynamicPopOutImageUrl="~/images/aplicacion/felchamenu.gif" StaticEnableDefaultPopOutImage="False">
+                    <StaticMenuItemStyle HorizontalPadding="5px" />
+                    <DynamicMenuStyle CssClass="elementoMenu" Width="150px" />
+                    <DynamicHoverStyle CssClass="elementoMenuHover" Width="150px" />
+                    <DynamicSelectedStyle ItemSpacing="5px" />
+                    <DynamicMenuItemStyle ItemSpacing="2px" VerticalPadding="0px" />
+                    <StaticHoverStyle CssClass="elementoMenuHover" />
+                    <DynamicItemTemplate>
+                        <%# Eval("Text") %>
+                    </DynamicItemTemplate>
+                </asp:Menu>
+            </div>
+        </div>
+
+        <div class="row"> 
+        <!-- *************************  CONTENIDO ************************* -->
+        <asp:contentplaceholder id="cphPrincipalInterna" runat="server"></asp:contentplaceholder>
+        <!-- *************************  /CONTENIDO ************************* -->
+        </div>
+
+
+
+    <div class="row"> 
+        <div class="pie">
+
+        <p>
+            <span class="contactanos"><a href="Contactanos.aspx">Contáctanos <img src="images/2014/contacto.png" alt="Contacto" /></a></span>
+        </p>
+        <div style="clear:both;"></div>
+
+        <div class="left">
+            <span class="resaltado en_linea">Ligas de Interes</span>
+
+            <ul class="horizontal en_linea">
+                <li><a href="">Investigación y Desarrollo</a></li>
+                <li><a target="_blank" href="http://www.colpos.mx/">Colegio de Postgraduados</a></li>
+                <li><a target="_blank" href="http://biblioteca.uaa.mx/">Universidad Autónoma de Aguascalientes</a></li>
+                <li><a target="_blank" href="http://www.conacyt.gob.mx">CONACYT</a></li>
+            </ul>
+        </div>
+            
+        </div><!-- /pie -->
+    </div><!-- /row-->
+
+    </div> <!-- /contenedor -->
+</div> <!-- /cuerpo_pagina -->
+</form>
+</body>
+</html>
